@@ -4,6 +4,14 @@ body {
   zoom: 67%;
 }
 
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
 .timeline {
   position: relative;
   max-width: 1200px;
