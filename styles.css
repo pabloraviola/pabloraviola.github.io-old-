@@ -1,0 +1,659 @@
+body {
+  background-color: black;
+  margin: 0px;
+  zoom: 67%;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: #171d29;
+  position: relative;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.container {
+  padding: 10px 50px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #0f183c;
+  border: 4px solid #2da1e7;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: -8.3%;
+}
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -16px;
+}
+
+.section {
+  margin: 2rem;
+}
+
+.section h1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3rem;
+}
+
+.section p {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.tech-icons-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+tr p {
+  font-size: 1.5rem !important;
+}
+
+.timeline p {
+  font-size: 1.5rem !important;
+}
+
+.tech-icon {
+  font-size: 15rem;
+}
+
+.name {
+  position: relative;
+  top: 4rem;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-size: 10rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 0px;
+}
+
+.job {
+  position: relative;
+  top: 2rem;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 30rem;
+  position: relative;
+  top: 3rem;
+  border: 10px solid black;
+}
+
+.cover-section {
+  height: 40rem;
+  background-image: url(https://images.unsplash.com/photo-1547954575-855750c57bd3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.social-media-section {
+  position: relative;
+  top: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 1rem;
+}
+
+.social-media-icon {
+  color: white;
+}
+
+.gmail-icon {
+  position: absolute;
+  top: 26rem;
+  font-size: 3rem;
+  color: white;
+}
+.gmail-text {
+  position: absolute;
+  color: white;
+  font-family: "Open Sans";
+  left: 50rem;
+  top: 24.5rem;
+}
+.cake-icon {
+  position: absolute;
+  top: 34rem;
+  left: 70rem;
+  font-size: 3rem;
+  color: white;
+}
+
+.cake-text {
+  position: absolute;
+  color: white;
+  font-family: "Open Sans";
+  left: 58rem;
+  top: 33rem;
+}
+
+.phone-icon {
+  position: absolute;
+  top: 26rem;
+  left: 103rem;
+  font-size: 3rem;
+  color: white;
+}
+
+.phone-text {
+  position: absolute;
+  color: white;
+  font-family: "Open Sans";
+  left: 107rem;
+  top: 25rem;
+}
+
+.location-icon {
+  position: absolute;
+  top: 34rem;
+  left: 106rem;
+  font-size: 3rem;
+  color: white;
+}
+
+.location-text {
+  position: absolute;
+  color: white;
+  font-family: "Open Sans";
+  left: 110rem;
+  top: 33rem;
+}
+
+@media (max-device-width: 1024px) {
+  body {
+    zoom: 100%;
+  }
+
+  .gmail-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 3rem;
+    top: 26rem;
+    font-size: 1rem;
+  }
+  .cake-icon {
+    position: absolute;
+    top: 34rem;
+    left: 12rem;
+    font-size: 3rem;
+    color: white;
+  }
+  .cake-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 1rem;
+    top: 33rem;
+  }
+
+  .phone-icon {
+    position: absolute;
+    top: 26rem;
+    left: 44rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .phone-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 48rem;
+    top: 25rem;
+    font-size: 1.5rem;
+  }
+
+  .location-icon {
+    position: absolute;
+    top: 34rem;
+    left: 48rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .location-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 51rem;
+    top: 34rem;
+    font-size: 0.8rem;
+  }
+  .section p {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .tech-icon {
+    font-size: 8rem;
+  }
+
+  .left {
+    left: -11%;
+  }
+}
+
+@media (min-device-width: 1024px) and (max-device-width: 1240px) {
+  .gmail-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 11rem;
+    top: 26rem;
+    font-size: 1rem;
+  }
+  .cake-icon {
+    position: absolute;
+    top: 34rem;
+    left: 20rem;
+    font-size: 3rem;
+    color: white;
+  }
+  .cake-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 9rem;
+    top: 33rem;
+  }
+
+  .phone-icon {
+    position: absolute;
+    top: 26rem;
+    left: 50rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .phone-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 54rem;
+    top: 25rem;
+    font-size: 1.5rem;
+  }
+  .location-icon {
+    position: absolute;
+    top: 34rem;
+    left: 54rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .location-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 57rem;
+    top: 34rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-device-width: 1240px) and (max-device-width: 1880px) {
+  .gmail-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 25rem;
+    top: 26rem;
+    font-size: 1rem;
+  }
+  .cake-icon {
+    position: absolute;
+    top: 34rem;
+    left: 34rem;
+    font-size: 3rem;
+    color: white;
+  }
+  .cake-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 23rem;
+    top: 33rem;
+  }
+
+  .phone-icon {
+    position: absolute;
+    top: 26rem;
+    left: 65rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .phone-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 69rem;
+    top: 25rem;
+    font-size: 1.5rem;
+  }
+
+  .location-icon {
+    position: absolute;
+    top: 34rem;
+    left: 75rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .location-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 78rem;
+    top: 34rem;
+    font-size: 0.8rem;
+  }
+}
+
+.slide-in-blurred-top {
+  -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
+    both;
+  animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+@-webkit-keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 0%;
+    transform-origin: 50% 0%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-blurred-bottom {
+  -webkit-animation: slide-in-blurred-bottom 0.6s cubic-bezier(0.23, 1, 0.32, 1)
+    both;
+  animation: slide-in-blurred-bottom 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+@-webkit-keyframes slide-in-blurred-bottom {
+  0% {
+    -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-bottom {
+  0% {
+    -webkit-transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    transform: translateY(1000px) scaleY(2.5) scaleX(0.2);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+    transform: translateY(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-blurred-left {
+  -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.23, 1, 0.32, 1)
+    both;
+  animation: slide-in-blurred-left 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-12-31 20:2:52
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-blurred-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+    transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+    transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+    transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+    transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-blurred-right {
+  -webkit-animation: slide-in-blurred-right 0.6s cubic-bezier(0.23, 1, 0.32, 1)
+    both;
+  animation: slide-in-blurred-right 0.6s cubic-bezier(0.23, 1, 0.32, 1) both;
+}
+
+@-webkit-keyframes slide-in-blurred-right {
+  0% {
+    -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+    transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+    transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-blurred-right {
+  0% {
+    -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+    transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+    -webkit-filter: blur(40px);
+    filter: blur(40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+    transform: translateX(0) scaleY(1) scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.pulsate-fwd i:hover,
+.pulsate-fwd div:hover {
+  -webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+  animation: pulsate-fwd 0.5s ease-in-out infinite both;
+  cursor: pointer;
+}
+
+@-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
