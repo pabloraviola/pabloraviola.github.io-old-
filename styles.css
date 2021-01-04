@@ -376,14 +376,13 @@ tr p {
     position: absolute;
     color: white;
     font-family: "Open Sans";
-    left: 25rem;
-    top: 26rem;
-    font-size: 1rem;
+    left: 31rem;
+    top: 24.5rem;
   }
   .cake-icon {
     position: absolute;
     top: 34rem;
-    left: 34rem;
+    left: 52rem;
     font-size: 3rem;
     color: white;
   }
@@ -391,14 +390,14 @@ tr p {
     position: absolute;
     color: white;
     font-family: "Open Sans";
-    left: 23rem;
+    left: 40rem;
     top: 33rem;
   }
 
   .phone-icon {
     position: absolute;
     top: 26rem;
-    left: 65rem;
+    left: 84rem;
     font-size: 3rem;
     color: white;
   }
@@ -407,7 +406,7 @@ tr p {
     position: absolute;
     color: white;
     font-family: "Open Sans";
-    left: 69rem;
+    left: 88rem;
     top: 25rem;
     font-size: 1.5rem;
   }
@@ -415,7 +414,7 @@ tr p {
   .location-icon {
     position: absolute;
     top: 34rem;
-    left: 75rem;
+    left: 87rem;
     font-size: 3rem;
     color: white;
   }
@@ -424,9 +423,8 @@ tr p {
     position: absolute;
     color: white;
     font-family: "Open Sans";
-    left: 78rem;
-    top: 34rem;
-    font-size: 0.8rem;
+    left: 90rem;
+    top: 33rem;
   }
 }
 
