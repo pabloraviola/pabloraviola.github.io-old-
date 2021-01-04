@@ -371,7 +371,65 @@ tr p {
   }
 }
 
-@media (min-device-width: 1240px) and (max-device-width: 1880px) {
+@media (min-device-width: 1240px) and (max-device-width: 1366px) {
+  .gmail-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 25rem;
+    top: 24.5rem;
+  }
+  .cake-icon {
+    position: absolute;
+    top: 34rem;
+    left: 45rem;
+    font-size: 3rem;
+    color: white;
+  }
+  .cake-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 33rem;
+    top: 33rem;
+  }
+
+  .phone-icon {
+    position: absolute;
+    top: 26rem;
+    left: 76rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .phone-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 80rem;
+    top: 25rem;
+    font-size: 1.5rem;
+  }
+
+  .location-icon {
+    position: absolute;
+    top: 34rem;
+    left: 80rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .location-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 84rem;
+    top: 33rem;
+  }
+}
+
+
+@media (min-device-width: 1367px) and (max-device-width: 1880px) {
   .gmail-text {
     position: absolute;
     color: white;
@@ -427,6 +485,8 @@ tr p {
     top: 33rem;
   }
 }
+
+
 
 .slide-in-blurred-top {
   -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
