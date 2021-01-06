@@ -174,65 +174,14 @@ tr p {
   color: white;
 }
 
-.gmail-icon {
-  position: absolute;
-  top: 26rem;
+.icon {
   font-size: 3rem;
   color: white;
 }
-.gmail-text {
-  position: absolute;
+.icon-text {
   color: white;
   font-family: "Open Sans";
-  left: 50rem;
-  top: 24.5rem;
-}
-.cake-icon {
-  position: absolute;
-  top: 34rem;
-  left: 70rem;
-  font-size: 3rem;
-  color: white;
-}
-
-.cake-text {
-  position: absolute;
-  color: white;
-  font-family: "Open Sans";
-  left: 58rem;
-  top: 33rem;
-}
-
-.phone-icon {
-  position: absolute;
-  top: 26rem;
-  left: 103rem;
-  font-size: 3rem;
-  color: white;
-}
-
-.phone-text {
-  position: absolute;
-  color: white;
-  font-family: "Open Sans";
-  left: 107rem;
-  top: 25rem;
-}
-
-.location-icon {
-  position: absolute;
-  top: 34rem;
-  left: 106rem;
-  font-size: 3rem;
-  color: white;
-}
-
-.location-text {
-  position: absolute;
-  color: white;
-  font-family: "Open Sans";
-  left: 110rem;
-  top: 33rem;
+  margin: 0 0 0 1rem;
 }
 
 @media (max-device-width: 1024px) {
@@ -240,62 +189,6 @@ tr p {
     zoom: 100%;
   }
 
-  .gmail-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 3rem;
-    top: 26rem;
-    font-size: 1rem;
-  }
-  .cake-icon {
-    position: absolute;
-    top: 34rem;
-    left: 12rem;
-    font-size: 3rem;
-    color: white;
-  }
-  .cake-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 1rem;
-    top: 33rem;
-  }
-
-  .phone-icon {
-    position: absolute;
-    top: 26rem;
-    left: 44rem;
-    font-size: 3rem;
-    color: white;
-  }
-
-  .phone-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 48rem;
-    top: 25rem;
-    font-size: 1.5rem;
-  }
-
-  .location-icon {
-    position: absolute;
-    top: 34rem;
-    left: 48rem;
-    font-size: 3rem;
-    color: white;
-  }
-
-  .location-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 51rem;
-    top: 34rem;
-    font-size: 0.8rem;
-  }
   .section p {
     color: white;
     font-family: "Open Sans", sans-serif;
@@ -310,123 +203,6 @@ tr p {
 
   .left {
     left: -11%;
-  }
-}
-
-@media (min-device-width: 1024px) and (max-device-width: 1240px) {
-  .gmail-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 11rem;
-    top: 26rem;
-    font-size: 1rem;
-  }
-  .cake-icon {
-    position: absolute;
-    top: 34rem;
-    left: 20rem;
-    font-size: 3rem;
-    color: white;
-  }
-  .cake-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 9rem;
-    top: 33rem;
-  }
-
-  .phone-icon {
-    position: absolute;
-    top: 26rem;
-    left: 50rem;
-    font-size: 3rem;
-    color: white;
-  }
-
-  .phone-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 54rem;
-    top: 25rem;
-    font-size: 1.5rem;
-  }
-  .location-icon {
-    position: absolute;
-    top: 34rem;
-    left: 54rem;
-    font-size: 3rem;
-    color: white;
-  }
-
-  .location-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 57rem;
-    top: 34rem;
-    font-size: 0.8rem;
-  }
-}
-
-@media (min-device-width: 1240px) and (max-device-width: 1880px) {
-  .gmail-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 25rem;
-    top: 26rem;
-    font-size: 1rem;
-  }
-  .cake-icon {
-    position: absolute;
-    top: 34rem;
-    left: 34rem;
-    font-size: 3rem;
-    color: white;
-  }
-  .cake-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 23rem;
-    top: 33rem;
-  }
-
-  .phone-icon {
-    position: absolute;
-    top: 26rem;
-    left: 65rem;
-    font-size: 3rem;
-    color: white;
-  }
-
-  .phone-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 69rem;
-    top: 25rem;
-    font-size: 1.5rem;
-  }
-
-  .location-icon {
-    position: absolute;
-    top: 34rem;
-    left: 75rem;
-    font-size: 3rem;
-    color: white;
-  }
-
-  .location-text {
-    position: absolute;
-    color: white;
-    font-family: "Open Sans";
-    left: 78rem;
-    top: 34rem;
-    font-size: 0.8rem;
   }
 }
 
