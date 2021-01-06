@@ -206,6 +206,184 @@ tr p {
   }
 }
 
+<<<<<<< HEAD
+=======
+@media (min-device-width: 1024px) and (max-device-width: 1240px) {
+  .gmail-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 11rem;
+    top: 26rem;
+    font-size: 1rem;
+  }
+  .cake-icon {
+    position: absolute;
+    top: 34rem;
+    left: 20rem;
+    font-size: 3rem;
+    color: white;
+  }
+  .cake-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 9rem;
+    top: 33rem;
+  }
+
+  .phone-icon {
+    position: absolute;
+    top: 26rem;
+    left: 50rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .phone-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 54rem;
+    top: 25rem;
+    font-size: 1.5rem;
+  }
+  .location-icon {
+    position: absolute;
+    top: 34rem;
+    left: 54rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .location-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 57rem;
+    top: 34rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-device-width: 1240px) and (max-device-width: 1366px) {
+  .gmail-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 25rem;
+    top: 24.5rem;
+  }
+  .cake-icon {
+    position: absolute;
+    top: 34rem;
+    left: 45rem;
+    font-size: 3rem;
+    color: white;
+  }
+  .cake-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 33rem;
+    top: 33rem;
+  }
+
+  .phone-icon {
+    position: absolute;
+    top: 26rem;
+    left: 76rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .phone-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 80rem;
+    top: 25rem;
+    font-size: 1.5rem;
+  }
+
+  .location-icon {
+    position: absolute;
+    top: 34rem;
+    left: 80rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .location-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 84rem;
+    top: 33rem;
+  }
+}
+
+
+@media (min-device-width: 1367px) and (max-device-width: 1880px) {
+  .gmail-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 31rem;
+    top: 24.5rem;
+  }
+  .cake-icon {
+    position: absolute;
+    top: 34rem;
+    left: 52rem;
+    font-size: 3rem;
+    color: white;
+  }
+  .cake-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 40rem;
+    top: 33rem;
+  }
+
+  .phone-icon {
+    position: absolute;
+    top: 26rem;
+    left: 84rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .phone-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 88rem;
+    top: 25rem;
+    font-size: 1.5rem;
+  }
+
+  .location-icon {
+    position: absolute;
+    top: 34rem;
+    left: 87rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .location-text {
+    position: absolute;
+    color: white;
+    font-family: "Open Sans";
+    left: 90rem;
+    top: 33rem;
+  }
+}
+
+
+
+>>>>>>> 06223317f2075256a70afcbc9894dfbba1e1d7d5
 .slide-in-blurred-top {
   -webkit-animation: slide-in-blurred-top 0.6s cubic-bezier(0.23, 1, 0.32, 1)
     both;
