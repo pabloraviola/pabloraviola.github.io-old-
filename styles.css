@@ -623,3 +623,37 @@ tr p {
 .custom-shape-divider-bottom-1625597288 .shape-fill {
   fill: #ff4a4a;
 }
+
+.pulsate-fwd-portfolio-title {
+  -webkit-animation: pulsate-fwd 5s ease-in-out infinite both;
+  animation: pulsate-fwd 5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulsate-fwd-portfolio-title {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd-portfolio-title {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
