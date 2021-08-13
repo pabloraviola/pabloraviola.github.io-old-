@@ -4,10 +4,12 @@
     <link href="./styles.css" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link href="https://unpkg.com/pattern.css" rel="stylesheet">
 </head>
-<body>
+<body class="pattern-diagonal-lines-xl">
     <div class="cover-section">
         <h1 class="name slide-in-blurred-top">PABLO RAVIOLA</h1>
         <h1 class="job slide-in-blurred-bottom">FRONTEND DEVELOPER</h1>
@@ -20,29 +22,33 @@
         </div>
         <img class="avatar name slide-in-blurred-bottom" src="./picture.jpeg" alt="profile" />
     </div>
-    <div class="section slide-in-blurred-bottom" style="margin-top: 12rem;">
+    <div class="row section slide-in-blurred-bottom"  style="margin-top: 15rem !important;">
+      <div class="col-md-8" style="border-right: 0.1rem solid white;">
         <h1>ABOUT ME</h1>
         <p>I'm a frontend web developer and a Systems Engineering student from San Francisco, Córoba - ARG</p>
         <p>My main goal right now is to get my Engineering degree, which will hopefully be next year. In the meantime, I'm building my career as a developer learning as much as I can about the new technologies that come across</p>
         <p>I consider myself as a proactive person who's always willing to take new challenges in order to improve his skills.</p>
         <p>On my spare time, I like listening to music and playing drums, I also love travelling whenever I have the chance, whether it is going on a short trip or taking a journey abroad for a couple of months.</p>
-    </div>
+  </div>
+  <div class="col-md-4 d-grid">
     <div style="display:inline-flex;margin:1rem;padding:1rem">
       <i class="fas fa-envelope icon slide-in-blurred-left"></i>
-      <h1 class="icon-text slide-in-blurred-left">pablo.raviola@gmail.com</h1>
+      <p class="icon-text slide-in-blurred-left">pablo.raviola@gmail.com</p>
     </div>
     <div style="display:inline-flex;margin:1rem;padding:1rem">
       <i class="fas fa-birthday-cake icon slide-in-blurred-left"></i>
-      <h1 class="icon-text slide-in-blurred-left">30/04/1992</h1>
+      <p class="icon-text slide-in-blurred-left">30/04/1992</p>
     </div>
     <div style="display:inline-flex;margin:1rem;padding:1rem">
       <i class="fas fa-phone icon slide-in-blurred-right"></i>
-      <h1 class="icon-text slide-in-blurred-right">+54 3564561315</h1>
+      <p class="icon-text slide-in-blurred-right">+54 3564561315</p>
     </div>
     <div style="display:inline-flex;margin:1rem;padding:1rem">
       <i class="fas fa-map-marker-alt  icon slide-in-blurred-right"></i>
-      <h1 class="icon-text slide-in-blurred-right">SAN FRANCISCO, CBA - ARG</h1>
+      <p class="icon-text slide-in-blurred-right">SAN FRANCISCO, CBA - ARG</p>
     </div>
+  </div>
+  </div>
     <div class="section slide-in-blurred-bottom">
         <h1>TECHNOLOGIES</h1>
         <table class="tech-icons-table" style="text-align: center;">
@@ -129,5 +135,6 @@
             </div>
           </div>
     </div>
+  
 
 </body>
